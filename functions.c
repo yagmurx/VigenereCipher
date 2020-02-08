@@ -26,7 +26,7 @@ int alphabetindex(char alphabet[], char word[], int i)
 return index;
 }
 
-//ENCRYPTION function encrypting a word by Method of Vigenere Chipher 
+//ENCRYPTION function encrypting a word by Method of Vigenere Cipher 
 //alphabet is the string of alphabet 
 //pass is the word which is wanted encrypting.
 //key is key word
@@ -52,7 +52,7 @@ char* encryption(char alphabet[], char pass[], char key[])
 	return p;
 }
 
-//DECRYPTION function solves the secret word which was encrypted by Chipher. 
+//DECRYPTION function solves the secret word which was encrypted by Cipher. 
 //alphabet is the string of alphabet 
 //store is encrypted world
 //key is key word
