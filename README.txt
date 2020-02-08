@@ -22,6 +22,8 @@ Vigenere Chiper uses a basic algorithm for encryption and decryption.
 Why mod26?
 Because English Aphabet has 26 characther, if we want to make a Turkish Vigenere Chiper, we should use mod29 for this step. Hence mod26 ‘S’ is always has an alphabet index.
 
+Also I made an inovation in this code. Normally if your word has 12 character and your keyword has only 5, you must write this for 2+ 2/5 times. However I added a mod code for this problem, one time writing is enough now. 
+
 *****User Guide*****
 Our only limitation is size of sentence. It is 50 but it will increase easily (with define limit code)
 For Vigenere Chiper there are only two input
@@ -60,7 +62,7 @@ There are an input and output words that founds easily everywhere.
 Also I generate an example.
       Password: GEBZETECHNIC
       Key: BUTTERFLY
-      Encrypted Password: HYUSIKJNFOCV0
+      Encrypted Password: HYUSIKJNFOCV
 
 Alphabetic Index
 0 A
