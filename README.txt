@@ -1,15 +1,15 @@
-# VigenereChipper
+# VigenereCipher
 --------//////////////--------
 I wrote this program in C for my "Algorithm and Programming I" Lecture Project. I used there functions, pointers and header file. 
 
-December 2019, Electronic Engineering First Class, Gebze Technical University
+December 2019, Electronics Engineering First Class, Gebze Technical University
 --------//////////////--------
 
  *****What is it?******
-Vigenere Chiper is the basic cryptology method which is using for message encryption with a keyword. Every character has indexes in our alphabet. Vigenere Chiper uses indexes for encrypting messages. (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+Vigenere Cipher is the basic cryptology method which is using for message encryption with a keyword. Every character has indexes in our alphabet. Vigenere Cipher uses indexes for encrypting messages. (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
 *****Description of Method******
-Vigenere Chiper uses a basic algorithm for encryption and decryption.
+Vigenere Cipher uses a basic algorithm for encryption and decryption.
 
       P= password’s i. character’s alphabet index
       K= key’s i. character’s alphabet index
@@ -20,13 +20,13 @@ Vigenere Chiper uses a basic algorithm for encryption and decryption.
       P = (S-K) mod26
       
 Why mod26?
-Because English Aphabet has 26 characther, if we want to make a Turkish Vigenere Chiper, we should use mod29 for this step. Hence mod26 ‘S’ is always has an alphabet index.
+Because English Aphabet has 26 characther, if we want to make a Turkish Vigenere Cipher, we should use mod29 for this step. Hence mod26 ‘S’ is always has an alphabet index.
 
 Also I made an inovation in this code. Normally if your word has 12 character and your keyword has only 5, you must write this for 2+ 2/5 times. However I added a mod code for this problem, one time writing is enough now. 
 
 *****User Guide*****
 Our only limitation is size of sentence. It is 50 but it will increase easily (with define limit code)
-For Vigenere Chiper there are only two input
+For Vigenere Cipher there are only two input
     • Password
     • Key word
 and only one output
