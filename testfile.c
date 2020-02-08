@@ -20,8 +20,8 @@ int main(){
 	int i;
 	for (i=0; i<limit; i++)
 	{
-		store[i]=ps[0];
-		ps++;
+		store[i]=ps[0]; //Why ps[0]? Cause I use here pointer's arithmetics. 
+		ps++; 
 	}
 	
 	ps= decryption(alphabet, store, key);
