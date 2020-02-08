@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "vgn.h"
-
-#define limit 50
 
 int main(){
 	
