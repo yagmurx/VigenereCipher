@@ -22,7 +22,7 @@ Vigenere Cipher uses a basic algorithm for encryption and decryption.
 Why mod26?
 Because English Aphabet has 26 characther, if we want to make a Turkish Vigenere Cipher, we should use mod29 for this step. Hence mod26 ‘S’ is always has an alphabet index.
 
-Also I made an inovation in this code. Normally if your word has 12 character and your keyword has only 5, you must write this for 2+ 2/5 times. However I added a mod code for this problem, one time writing is enough now. 
+Also I made an inovation in this code. Normally if your word has 12 character and your keyword has only 5, you must write this for 2 + 2/5 times (total 12 character). However I added a mod code for solving this problem, writing once is enough now. 
 
 *****User Guide*****
 Our only limitation is size of sentence. It is 50 but it will increase easily (with define limit code)
@@ -31,10 +31,10 @@ For Vigenere Cipher there are only two input
     • Key word
 and only one output
     • Store word
-  
-However for different functions inputs will be different.
+    
+    Functions:
 
-//alphabetindex = this function using for converting a character to alphabetic index. For example A is 0, P is 15 etc. ( next page have a list for this index style) This function’s input’s are alphabet, word, and i.
+//alphabetindex = this function using for converting a character to alphabetic index. For example A is 0, P is 15 etc. (You can see a list of alphabet below) This function’s input’s are alphabet, word, and i.
       alphabet = It is a string which include the alphabet.
       word = This function convert this string’s i. element a number.
       i = index of the element which is converting to a number.
